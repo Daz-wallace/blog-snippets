@@ -1,0 +1,8 @@
+<key>additional_startosinstall_options</key>
+<array>
+	<string>--eraseinstall</string>
+</array>
+	<key>installcheck_script</key>
+	<string>#!/bin/sh
+
+exit 0</string>

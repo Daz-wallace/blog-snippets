@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>RequireRestart</string>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>darren</string>
+		<key>creation_date</key>
+		<date>2018-09-27T13:55:15Z</date>
+		<key>munki_version</key>
+		<string>3.3.0.3515</string>
+		<key>os_version</key>
+		<string>10.13.5</string>
+	</dict>
+	<key>additional_startosinstall_options</key>
+	<array>
+		<string>--eraseinstall</string>
+	</array>
+	<key>apple_item</key>
+	<true/>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>OS Installers</string>
+	<key>description</key>
+	<string>WARNING: ERASE AND INSTALLS macOS version 10.14</string>
+	<key>developer</key>
+	<string>Apple</string>
+	<key>display_name</key>
+	<string>ERASE and Install macOS Mojave</string>
+	<key>installcheck_script</key>
+	<string>#!/bin/sh
+
+exit 0</string>
+	<key>installed_size</key>
+	<integer>14994636</integer>
+	<key>installer_item_hash</key>
+	<string>f1cfab0f14842f6a311be8b4d674050e79daef7f38cb2157b84022e9fe863071</string>
+	<key>installer_item_location</key>
+	<string>OS Installers/Install macOS Mojave-10.14.dmg</string>
+	<key>installer_item_size</key>
+	<integer>5882566</integer>
+	<key>installer_type</key>
+	<string>startosinstall</string>
+	<key>minimum_munki_version</key>
+	<string>3.0.0.3211</string>
+	<key>minimum_os_version</key>
+	<string>10.8</string>
+	<key>name</key>
+	<string>ERASEAndInstallmacOSMojave</string>
+	<key>unattended_install</key>
+	<false/>
+	<key>unattended_uninstall</key>
+	<false/>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>10.14</string>
+</dict>
+</plist>
