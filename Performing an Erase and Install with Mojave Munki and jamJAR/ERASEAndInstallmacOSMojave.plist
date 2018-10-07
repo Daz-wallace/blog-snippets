@@ -37,7 +37,6 @@
 	<string>ERASE and Install macOS Mojave</string>
 	<key>installcheck_script</key>
 	<string>#!/bin/sh
-
 exit 0</string>
 	<key>installed_size</key>
 	<integer>14994636</integer>
