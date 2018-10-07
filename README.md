@@ -1,9 +1,12 @@
 # blog-snippets
 
+
 To host snippets and scripts for blog posts.
 
 
-Contact:
+
+
+*Contact:*
 
 Slack/Twitter - @daz_wallace
 
