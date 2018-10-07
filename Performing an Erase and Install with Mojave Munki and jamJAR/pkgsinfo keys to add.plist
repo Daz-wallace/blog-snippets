@@ -2,7 +2,6 @@
 <array>
 	<string>--eraseinstall</string>
 </array>
-	<key>installcheck_script</key>
+<key>installcheck_script</key>
 	<string>#!/bin/sh
-
 exit 0</string>
