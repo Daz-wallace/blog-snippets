@@ -99,9 +99,9 @@ deleteapps()
             if [ -d /Applications/"Microsoft ${appTitle}".app ]
             then
             	/bin/echo "Found Microsoft ${appTitle}.app..."
-            	if [ -d /Applications/"Microsoft ${appTitle}".app/Contents/_MASRecipt ]
+            	if [ -d /Applications/"Microsoft ${appTitle}".app/Contents/_MASReceipt ]
             	then
-            		/bin/echo "Microsoft ${appTitle}.app has _MASRecipt folder, skipping..."
+            		/bin/echo "Microsoft ${appTitle}.app has _MASReceipt folder, skipping..."
             	else
                 	/bin/echo "Microsoft ${appTitle}.app does not have a _MASReceipt folder, deleting..."
                 	/bin/rm -rf /Applications/"Microsoft ${appTitle}".app
