@@ -103,7 +103,7 @@ deleteapps()
             	then
             		/bin/echo "Microsoft ${appTitle}.app has _MASRecipt folder, skipping..."
             	else
-                	/bin/echo "Microsoft ${appTitle}.app does not have a _MASRecipt folder, deleting..."
+                	/bin/echo "Microsoft ${appTitle}.app does not have a _MASReceipt folder, deleting..."
                 	/bin/rm -rf /Applications/"Microsoft ${appTitle}".app
                 fi
             else
