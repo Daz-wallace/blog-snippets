@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EnterprisePoliciesEnabled</key>
+			<true/>
+			<key>Homepage</key>
+			<dict>
+				<key>Locked</key>
+				<true/>
+				<key>StartPage</key>
+				<string>homepage</string>
+				<key>URL</key>
+				<string>https://datajar.co.uk</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures Firefox settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Firefox</string>
+			<key>PayloadIdentifier</key>
+			<string>uk.co.daz-wallace.C227595B-6AD4-4F2E-A06E-33DD6814FF2D.org.mozilla.firefox.2C284A01-E458-4BBC-B185-021CCC8CB070</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>org.mozilla.firefox</string>
+			<key>PayloadUUID</key>
+			<string>2C284A01-E458-4BBC-B185-021CCC8CB070</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This profile sets the Firefox homepage to https://datajar.co.uk</string>
+	<key>PayloadDisplayName</key>
+	<string>Firefox - Set Homepage</string>
+	<key>PayloadIdentifier</key>
+	<string>uk.co.daz-wallace.C227595B-6AD4-4F2E-A06E-33DD6814FF2D</string>
+	<key>PayloadOrganization</key>
+	<string>Daz Wallace</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C227595B-6AD4-4F2E-A06E-33DD6814FF2D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

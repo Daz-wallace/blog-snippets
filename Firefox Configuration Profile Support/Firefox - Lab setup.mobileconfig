@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>BlockAboutAddons</key>
+			<true/>
+			<key>BlockAboutConfig</key>
+			<true/>
+			<key>BlockAboutProfiles</key>
+			<true/>
+			<key>BlockAboutSupport</key>
+			<true/>
+			<key>DisableAppUpdate</key>
+			<true/>
+			<key>DisableDeveloperTools</key>
+			<true/>
+			<key>DisableFeedbackCommands</key>
+			<true/>
+			<key>DisablePrivateBrowsing</key>
+			<true/>
+			<key>DisableProfileImport</key>
+			<true/>
+			<key>DisableProfileRefresh</key>
+			<true/>
+			<key>DisableSafeMode</key>
+			<true/>
+			<key>DisableSetDesktopBackground</key>
+			<true/>
+			<key>DisableSystemAddonUpdate</key>
+			<true/>
+			<key>DisableTelemetry</key>
+			<true/>
+			<key>DontCheckDefaultBrowser</key>
+			<true/>
+			<key>EnableTrackingProtection</key>
+			<dict>
+				<key>Value</key>
+				<false/>
+			</dict>
+			<key>EnterprisePoliciesEnabled</key>
+			<true/>
+			<key>Homepage</key>
+			<dict>
+				<key>Locked</key>
+				<true/>
+				<key>StartPage</key>
+				<string>homepage</string>
+				<key>URL</key>
+				<string>https://datajar.co.uk</string>
+			</dict>
+			<key>NoDefaultBookmarks</key>
+			<true/>
+			<key>OverrideFirstRunPage</key>
+			<string></string>
+			<key>OverridePostUpdatePage</key>
+			<string></string>
+			<key>PayloadDescription</key>
+			<string>Configures Firefox settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Firefox</string>
+			<key>PayloadIdentifier</key>
+			<string>uk.co.daz-wallace.248FBB97-B92B-41AC-97A7-C9E9C4F34989.org.mozilla.firefox.6F4B1E89-7B61-4CEE-B802-1C4BE0AF78E5</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>org.mozilla.firefox</string>
+			<key>PayloadUUID</key>
+			<string>6F4B1E89-7B61-4CEE-B802-1C4BE0AF78E5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxy</key>
+			<dict>
+				<key>Locked</key>
+				<true/>
+				<key>Mode</key>
+				<string>system</string>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures Firefox for a typical Lab environment</string>
+	<key>PayloadDisplayName</key>
+	<string>Firefox - Lab setup</string>
+	<key>PayloadIdentifier</key>
+	<string>uk.co.daz-wallace.248FBB97-B92B-41AC-97A7-C9E9C4F34989</string>
+	<key>PayloadOrganization</key>
+	<string>Daz Wallace</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>248FBB97-B92B-41AC-97A7-C9E9C4F34989</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
