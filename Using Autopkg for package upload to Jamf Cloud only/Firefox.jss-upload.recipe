@@ -6,7 +6,7 @@
 	<string>Downloads Firefox disk image and builds a package, then uploads to the JSS.
 Credit to the original creators of the firefox.jss recipe, Homebysix and Novaksam</string>
 	<key>Identifier</key>
-	<string>com.github.dazwallace.demo.jss.uploadonly.Firefox</string>
+	<string>com.github.dazwallace.demo.jss-upload.Firefox</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
