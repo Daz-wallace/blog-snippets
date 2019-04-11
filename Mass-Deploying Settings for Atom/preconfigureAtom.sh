@@ -36,7 +36,8 @@ for userHome in /Users/* ;  do
       	fi
       	if [ -d "${userHome}"/.atom ]; then
 			/bin/echo "${setupInitContents}" >> "${userHome}"/.atom/init.coffee
-      		/usr/sbin/chown "${userUID}" "${userHome}"/.atom/init.coffee   	
+      		/usr/sbin/chown root "${userHome}"/.atom/init.coffee
+      		/bin/chmod 755 "${userHome}"/.atom/init.coffee
       	fi
 	fi
 done
